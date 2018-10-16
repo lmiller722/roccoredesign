@@ -1,38 +1,14 @@
-header {
-
-}
-
-.collapsible {
-    background-color: #eee;
-    color: #444;
-    padding: 20px;
-    width: 100%;
-    border: 5px;
+header.menuheader {
+    height: 50px;
+    background-color: darkslategray;
+    color: white;
     text-align: center;
-    outline: none;
-    font-size: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 20px;
 }
 
-#navbar {
 
-}
-
-#socialbar {
-
-}
-
-.scrollcenter {
-
-}
-
-.logo {
-
-}
-
-.menu {
-
-}
-
-.reservation {
-
+#navbarsExampleDefault {
+    text-align: right;
 }
