@@ -9,6 +9,16 @@ header.menuheader {
 }
 
 
-#navbarsExampleDefault {
-    text-align: right;
+.phonenum {
+    display: contents;
+    
+}
+
+.barpadding {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#test {
+    padding: 10px;
 }
