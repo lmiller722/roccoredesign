@@ -19,6 +19,24 @@ header.menuheader {
     padding-left: 50px;
 }
 
+.barpaddingtwo {
+    padding-left: 80px;
+    position: fixed;
+}
+
 #test {
     padding: 10px;
+}
+
+
+.bg-special {
+    background-color: 221000!important;
+}
+
+.underlineHover:hover {
+    text-decoration: underline;
+}
+
+.font-navbar {
+    font-family: 'Kodchasan', sans-serif;    
 }
