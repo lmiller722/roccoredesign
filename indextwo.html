@@ -1,27 +1,267 @@
-<!doctype html>
+<!doctype html5>
 <html>
+
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="styles.css">
-    <title>Rocco</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Rocco | Menu</title>
+
 </head>
 
-<body> 
-    <header class="menuheader"> Menu </header>
+<body>
+    <header class="menuheader">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-special fixed-top">
+            <a class="navbar-brand" href="index.html">Rocco |</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="phonenum text-white text-nowrap">
+                585 - 454 - 3510
+            </span>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav flex-row-reverse">
+                    <li class="barpaddingtwo underlineHover nav-item dropdown">
+                        <a class="nav-link dropdown-toggle col" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="indextwo.html">Menu</a>
+                            <a class="dropdown-item" href="indexthree.html">Reservations</a>
+                            <a class="dropdown-item" href="indexthree.html">Contact</a>
+                        </div>
+                    </li>
+
+                    <li class="barpadding underlineHover font-navbar nav-item active">
+                        <a id="test" class="nav-link" href="indextwo.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="barpadding underlineHover font-navbar nav-item active">
+                        <a class="nav-link" href="indexthree.html">Reservations <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="barpadding underlineHover font-navbar nav-item active">
+                        <a class="nav-link" href="indexthree.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     
-    <main>
-        <img src="https://static.wixstatic.com/media/2c2451_5a01d83d8d0e47cfa5143028d3dbd4b7~mv2_d_1926_1482_s_2.png/v1/fill/w_392,h_300,al_c,usm_0.66_1.00_0.01/2c2451_5a01d83d8d0e47cfa5143028d3dbd4b7~mv2_d_1926_1482_s_2.png">
-    </main>
-  
-
- 
 
 
 
+<main>
+    <div class="starter-template">
+        <h1 class="text-center">Menu</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="card-header text-center" id="headingOne">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Antipasti
+                        </button>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div>
+                            <dl class="text-center">
+                                <dt>house marinated olives</dt>
+                                <dl>olives    /    $5</dl>
+                                <dt>grilled octopus / green sauce</dt>
+                                <dl>polpo    /    $12</dl>
+                                <dt>house made ricotta / charred bread / olive oil / herbs</dt>
+                                <dl>ricotta    /    $11</dl>
+                                <dt>risotto fritters / tomato sauce</dt>
+                                <dl>arancini    /    $8</dl>
+                                <dt>fried mozzarella / tomato sauce</dt>
+                                <dl>mozzarella    /    $8</dl>
+                                <dt>meatballs / grilled bread</dt>
+                                <dl>polpette    /    $9</dl>
+                                <dt>lettuces/apples/cider vinaigrette/robiolo crostini </dt>
+                                <dl>insalata miele con crostini di robiolo    /    $9</dl>
+                                <dt>roasted peppers / salami / olives / provolone</dt>
+                                <dl>insalata Italiana rocco    /    $9</dl>
+                                <dt>escarole / frisee / radicchio / red wine vinaigrette</dt>
+                                <dl>insalata tricolore    /    $8</dl>
+                                <dt>romaine / garlic-anchovy dressing / pecorino</dt>
+                                <dl>insalata "caesar cardini"    /    $9</dl>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="card-header text-center" id="headingTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Pizza
+                        </button>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="card-header text-center" id="headingThree">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Pasta
+                        </button>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="card-header text-center" id="headingFour">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Piatti
+                        </button>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="card-header text-center" id="headingFive">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Contorni
+                        </button>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="card-header text-center" id="headingSix">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Dolci
+                        </button>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    <div class="container">
+        <div class="row">
+            <div class="col">col1</div>
+            <div class="col">col2</div>
+        <div class="row">
+            <div class="col">col3</div>
+            <div class="col">col4</div>
+        </div>
+    </div>
+-->
+
+<!--
+<footer class="global-footer fixed-bottom">
+    <p>Rocco | 585 - 454 - 3510</p>
+</footer> 
+-->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 

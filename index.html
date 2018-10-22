@@ -1,6 +1,9 @@
+<!doctype html5>
+
 <html lang="en">
 <head>
   <title>Home | Rocco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
   crossorigin="anonymous">
@@ -12,46 +15,37 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-special fixed-top">
       <a class="navbar-brand" href="index.html">Rocco |</a>
-      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
         aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon text-right"></span>
       </button>
 
-        <span class="phonenum text-white text-nowrap">
+        <span class="navbar-text text-white text-nowrap">
           585 - 454 - 3510
         </span>
-        
-          
-
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav flex-row-reverse">
+        <ul class="navbar-nav flex-row-reverse navbarForced">
           <li class="barpaddingtwo underlineHover nav-item dropdown">
             <a class="nav-link dropdown-toggle col" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="indextwo.html">Menu</a>
-              <a class="dropdown-item" href="#">Reservations</a>
-              <a class="dropdown-item" href="#">Contact</a>
+              <a class="dropdown-item" href="indexthree.html">Reservations</a>
+              <a class="dropdown-item" href="indexthree.html">Contact</a>
             </div>
           </li>
           
-         
-        
-
           <li class="barpadding underlineHover font-navbar nav-item active">
             <a id="test" class="nav-link" href="indextwo.html">Menu <span class="sr-only">(current)</span></a>
           </li>
           <li class="barpadding underlineHover font-navbar nav-item active">
-            <a class="nav-link" href="index.html">Reservations <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="indexthree.html">Reservations <span class="sr-only">(current)</span></a>
           </li>
           <li class="barpadding underlineHover font-navbar nav-item active">
-            <a class="nav-link" href="index.html">Contact <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="indexthree.html">Contact <span class="sr-only">(current)</span></a>
           </li>
-          
         </ul>
         
-        
-
       </div>
     </nav>
   </header>
@@ -61,7 +55,7 @@
       <br>
       <br>
       <br>
-      <h1 style=text-align:center;>Welcome!</h1>
+      <h1 class="text-center">Welcome!</h1>
      
       <div class="img-fluid text-center " alt="Responsive image">
         <img src="https://static.wixstatic.com/media/2c2451_5a01d83d8d0e47cfa5143028d3dbd4b7~mv2_d_1926_1482_s_2.png/v1/fill/w_392,h_300,al_c,usm_0.66_1.00_0.01/2c2451_5a01d83d8d0e47cfa5143028d3dbd4b7~mv2_d_1926_1482_s_2.png" class="img-fluid" alt="Responsive image">
@@ -77,22 +71,21 @@
 
 
 
-
+<!--
   </main>
+  
+  <footer class="global-footer fixed-bottom">
+     <p>Rocco | 585 - 454 - 3510</p>
+  </footer>  
+-->
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script>
     window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
   </script>
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <!--  
-    <footer>
-        sample footer
-    </footer>
-    -->
-
 </body>
 
 </html>

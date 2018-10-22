@@ -1,17 +1,13 @@
 header.menuheader {
-    height: 50px;
+    height: 60px;
     background-color: darkslategray;
     color: white;
-    text-align: center;
-    font-size: 20px;
     font-family: Arial;
-    padding-top: 20px;
 }
 
 
 .phonenum {
     display: contents;
-    
 }
 
 .barpadding {
@@ -20,8 +16,8 @@ header.menuheader {
 }
 
 .barpaddingtwo {
-    padding-left: 80px;
-    position: fixed;
+    padding-left: 50px;
+   
 }
 
 #test {
@@ -39,4 +35,17 @@ header.menuheader {
 
 .font-navbar {
     font-family: 'Kodchasan', sans-serif;    
+}
+
+.container-menu {
+    display: flex;
+}
+
+global.footer {
+    background-color: 221000;
+    color: white;
+}
+
+.navbarForced {
+    text-align: right!important;
 }
