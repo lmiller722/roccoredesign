@@ -1,9 +1,95 @@
-header.menuheader {
+.homeImage {
+    background-image: url("noodles-rice-potatoes.jpeg");
+    height: 10vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.menuImage {
+    background-image:url("pizza.jpeg");
+    background-color: 221000;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactsImage {
+    background-image:url("cutting-board.jpeg");
+    background-color: 221000;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.header.menuheader {
     height: 60px;
     background-color: darkslategray;
     color: white;
-    font-family: Arial;
 }
+
+.menuContent {
+    color: white;
+    border: .5px dotted white;
+}
+
+.menuLogo {
+    font-size: 200px;
+    color: white;
+    margin-top: 80px;
+}
+
+.menuHeader {
+    color: black;   
+}
+
+.menuText {
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.menuSize {
+    margin-bottom: 400px;
+}
+
+
+.contactsMain {
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    border: 5px solid black;
+}
+
+.homeQuote {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    height: 20vh;
+    text-align: left;
+}
+
+.welcomelogo {
+    padding-top:100px;
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+}
+
+.footer {
+    background-color: 221000;
+    padding: 0px;
+    text-align: justify;
+    height:80px;
+}
+
+.footerContent {
+    color: white;
+
+}
+
+
 
 
 .phonenum {
@@ -11,19 +97,18 @@ header.menuheader {
 }
 
 .barpadding {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 65px;
+    padding-left: 65px;
 }
 
 .barpaddingtwo {
     padding-left: 50px;
-   
 }
+
 
 #test {
     padding: 10px;
 }
-
 
 .bg-special {
     background-color: 221000!important;

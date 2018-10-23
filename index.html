@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
   crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet"> 
 </head>
 
 <body style=background-image:radial-gradient(circle,wheat,white);>
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-special fixed-top">
-      <a class="navbar-brand" href="index.html">Rocco |</a>
+      <a class="navbar-brand" href="index.html">rocco |</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
         aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon text-right"></span>
@@ -25,7 +26,7 @@
         </span>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav flex-row-reverse navbarForced">
+        <!--<ul class="navbar-nav flex-row-reverse ml-auto">
           <li class="barpaddingtwo underlineHover nav-item dropdown">
             <a class="nav-link dropdown-toggle col" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -34,15 +35,16 @@
               <a class="dropdown-item" href="indexthree.html">Contact</a>
             </div>
           </li>
-          
-          <li class="barpadding underlineHover font-navbar nav-item active">
-            <a id="test" class="nav-link" href="indextwo.html">Menu <span class="sr-only">(current)</span></a>
+        </ul>-->
+        <ul class="navbar-nav mx-auto text-md-center text-left flex-row-reverse">
+          <li class="mx-auto barpadding underlineHover font-navbar nav-item active">
+            <a id="test" class="nav-link" href="indexthree.html">Contact <span class="sr-only">(current)</span></a>
           </li>
-          <li class="barpadding underlineHover font-navbar nav-item active">
+          <li class="mx-auto barpadding underlineHover font-navbar nav-item active">
             <a class="nav-link" href="indexthree.html">Reservations <span class="sr-only">(current)</span></a>
           </li>
-          <li class="barpadding underlineHover font-navbar nav-item active">
-            <a class="nav-link" href="indexthree.html">Contact <span class="sr-only">(current)</span></a>
+          <li class="mx-auto barpadding underlineHover font-navbar nav-item active">
+            <a class="nav-link" href="indextwo.html">Menu <span class="sr-only">(current)</span></a>
           </li>
         </ul>
         
@@ -55,15 +57,15 @@
       <br>
       <br>
       <br>
-      <h1 class="text-center">Welcome!</h1>
+      <h1 class="welcomelogo text-center">Benvenuto!</h1>
      
-      <div class="img-fluid text-center " alt="Responsive image">
-        <img src="https://static.wixstatic.com/media/2c2451_5a01d83d8d0e47cfa5143028d3dbd4b7~mv2_d_1926_1482_s_2.png/v1/fill/w_392,h_300,al_c,usm_0.66_1.00_0.01/2c2451_5a01d83d8d0e47cfa5143028d3dbd4b7~mv2_d_1926_1482_s_2.png" class="img-fluid" alt="Responsive image">
+      <div class="img-fluid text-center homeImage" alt="Responsive image">
+        <img src="./noodles-rice-potatoes.jpeg" class="img-fluid" alt="Responsive image">
       </div>
       
-      
-      <p class="lead text-center">"For Italian cuisine, Rocco comes as close to the real thing without traveling across the Atlantic."</p>
-
+      <div class="container">
+        <p class="homeQuote lead text-center">"For Italian cuisine, Rocco comes as close to the real thing without traveling across the Atlantic."</p>
+      </div>
     </div>
 
 
@@ -71,13 +73,19 @@
 
 
 
-<!--
+
   </main>
-  
-  <footer class="global-footer fixed-bottom">
-     <p>Rocco | 585 - 454 - 3510</p>
-  </footer>  
--->
+
+
+  <footer class="footer">
+      <div class="container footerContent">
+        <div class="row text-center align-items-end">
+          <div class="col">585-454-3510</div>
+          <div class="col">| rocco |</div>
+          <div class="col">165 Monroe Ave</div>
+        </div>
+      </div>
+    </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script>

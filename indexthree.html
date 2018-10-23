@@ -7,39 +7,117 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
     <title>Rocco | Contact/Reservations</title>
 
 </head>
-<body>
-
-
-
-
-
-
-
-
-
-
-
-
+<body class="contactsImage">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-special fixed-top">
+          <a class="navbar-brand" href="index.html">rocco |</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-right"></span>
+          </button>
     
-        <h1>My First Google Map</h1>
+            <span class="navbar-text text-white text-nowrap">
+              585 - 454 - 3510
+            </span>
+    
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+           <!-- <ul class="navbar-nav flex-row-reverse navbarForced">
+              <li class="barpaddingtwo underlineHover nav-item dropdown">
+                <a class="nav-link dropdown-toggle col" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="indextwo.html">Menu</a>
+                  <a class="dropdown-item" href="indexthree.html">Reservations</a>
+                  <a class="dropdown-item" href="indexthree.html">Contact</a>
+                </div>
+              </li> 
+            </ul> -->
+            <ul class="navbar-nav mx-auto text-md-center text-left flex-row-reverse">
+              <li class="barpadding underlineHover font-navbar nav-item active">
+                <a id="test" class="nav-link" href="indextwo.html">Menu <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="barpadding underlineHover font-navbar nav-item active">
+                <a class="nav-link" href="indexthree.html">Reservations <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="barpadding underlineHover font-navbar nav-item active">
+                <a class="nav-link" href="indexthree.html">Contact <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            
+          </div>
+        </nav>
+      </header>
 
-        <div id="map" style="width:400px;height:400px;background:yellow"></div>
+  <div class="container contactsMain">
+        <div class="row">
+            <div class="col">
+                <img src="https://static.wixstatic.com/media/2c2451_7eae7d3989304a81b5fea435a9847ec3~mv2.png/v1/fill/w_450,h_300,al_c,usm_0.66_1.00_0.01/2c2451_7eae7d3989304a81b5fea435a9847ec3~mv2.png" alt="Home image">
+            </div>
+                
+            <div class="col">
+                <ul class="text-left">
+                    <dt><h3>Opening Hours</h3></dt>
+                    <dt>Monday - Thursday</dt>
+                    <dt>Full Menu 5 pm - 9:30 pm</dt>
+                    <dl>(pizza, salad, dessert til 10)</dl>
+                    <br>
+                    <dt>Friday - Saturday</dt>
+                    <dt>Full Menu 5 pm - 10 pm</dt>
+                    <dl>(pizza, salad, dessert til 11)</dl>
+                    <br>
+                    <dt>Friday Only</dt>
+                    <dt>Lunch 11:30 am - 2 pm</dt>
+                    <br>
+                    <dt>closed Sunday</dt>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="map" style="width:400px;height:400px;background:yellow;margin-bottom:10px;"></div>
         
-        <script>
-        function myMap() {
-        var mapOptions = {
-            center: new google.maps.LatLng(51.5, -0.12),
-            zoom: 10,
-            mapTypeId: google.maps.MapTypeId.HYBRID
-        }
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-        }
-        </script>
+                <script>
+                function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(51.5, -0.12),
+                    zoom: 10,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                }
+                </script>
+                    
+            
+            </div>
+            <div class="col">
+                <ul class="text-left">
+                    <dt><h2>Come dine with us</h2></dt>
+                    <dt>165 Monroe Avenue</dt>
+                    <dt>Rochester, New York</dt>
+                    <dt>14607</dt>
+                    <dt><h3>585 - 454 - 3510</h3></dt>
+                    <dt><h4>roccorochester.com</h4></dt>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+            <div class="container footerContent">
+                <div class="row text-center align-items-end">
+                    <div class="col">585-454-3510</div>
+                    <div class="col">| rocco |</div>
+                    <div class="col">165 Monroe Ave</div>
+                </div>
+            </div>
+        </footer>
         
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
 
 
@@ -48,16 +126,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

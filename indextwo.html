@@ -7,24 +7,26 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
     <title>Rocco | Menu</title>
 
 </head>
-
-<body>
+<!-- Top nav bar  -->
+<body class="menuImage">
     <header class="menuheader">
         <nav class="navbar navbar-expand-lg navbar-dark bg-special fixed-top">
-            <a class="navbar-brand" href="index.html">Rocco |</a>
+            <a class="navbar-brand" href="index.html">rocco |</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon text-center"></span>
             </button>
+            
             <span class="phonenum text-white text-nowrap">
                 585 - 454 - 3510
             </span>
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav flex-row-reverse">
+                <!--<ul class="navbar-nav flex-row-reverse">
                     <li class="barpaddingtwo underlineHover nav-item dropdown">
                         <a class="nav-link dropdown-toggle col" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Dropdown</a>
@@ -34,7 +36,8 @@
                             <a class="dropdown-item" href="indexthree.html">Contact</a>
                         </div>
                     </li>
-
+                </ul>-->
+                <ul class="navbar-nav mx-auto text-md-center text-left flex-row-reverse"> 
                     <li class="barpadding underlineHover font-navbar nav-item active">
                         <a id="test" class="nav-link" href="indextwo.html">Menu <span class="sr-only">(current)</span></a>
                     </li>
@@ -53,21 +56,25 @@
 
 
 <main>
-    <div class="starter-template">
+    <div class="menuLogo">
         <h1 class="text-center">Menu</h1>
     </div>
 
+
+    <!-- Main menu content -->
+
+<div class="menuSize">
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="accordion" id="accordionExample">
-                    <div class="card-header text-center" id="headingOne">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                <div class="accordion menuContent" id="accordionExample">
+                    <div class="menuContent card-header text-center" id="headingOne">
+                        <button class="btn " type="button" data-toggle="collapse" data-target="#collapseOne"
                             aria-expanded="true" aria-controls="collapseOne">
                             Antipasti
                         </button>
                     </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div id="collapseOne" class="collapse menuText" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div>
                             <dl class="text-center">
                                 <dt>house marinated olives</dt>
@@ -98,22 +105,39 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="accordion" id="accordionExample">
+                <div class="accordion menuContent" id="accordionExample">
                     <div class="card-header text-center" id="headingTwo">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
                             aria-expanded="false" aria-controls="collapseTwo">
                             Pizza
                         </button>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="collapseTwo" class="collapse menuText" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                            you probably haven't heard of them accusamus labore sustainable VHS.
+                            <dl class="text-center">
+                                <dt>tomato / basil / mozzarella</dt>
+                                <dl>margherita    /    $9</dl>
+                                <dt>tomato / oregano / garlic / sicilian anchovies</dt>
+                                <dl>napoletana    /    $12</dl>
+                                <dt>tomato / soppressata / spicy honey</dt>
+                                <dl>paulie g.    /    $13</dl>
+                                <dt>tomato / ricotta / spinach</dt>
+                                <dl>bandiera    /    $12</dl>
+                                <dt>sweet peppers / pepperoni / basil</dt>
+                                <dl>pepperoni-peperoni    /    $13</dl>
+                                <dt>mushrooms / fontina / white truffle</dt>
+                                <dl>funghi e fontina    /    $15</dl>
+                                <dt>clams / pancetta / parsley / chili</dt>
+                                <dl>vongole    /    $15</dl>
+                                <dt>ricotta / tomato / calabrian chilis / olives</dt>
+                                <dl>calabrese    /    $12</dl>
+                                <dt>spinach / goat cheese / garlic</dt>
+                                <dl>spinaci    /    $13</dl>
+                                <dt>tomato / pepperoni / mozzarella</dt>
+                                <dl>gringo    /    $12</dl>
+                                <dt>butcher's choice of meat</dt>
+                                <dl>macellaio    /    $13</dl>
+                            </dl>
                         </div>
                     </div>
                 </div>
@@ -121,22 +145,22 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="accordion" id="accordionExample">
+                <div class="accordion menuContent" id="accordionExample">
                     <div class="card-header text-center" id="headingThree">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
                             aria-expanded="false" aria-controls="collapseThree">
                             Pasta
                         </button>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                            you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div id="collapseThree" class="collapse menuText" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="text-center">
+                            <dt>long pasta / clam sauce / parsley</dt>
+                            <dl>pasta lunge alle vongole    /    $22</dl>
+                            <dt>artisan dried pasta / meatballs / tomato sauce</dt>
+                            <dl>pasta con polpette    /    $19</dl>
+                            <dt>pizza maker's style - tomato / balsamella / three cheese / basil</dt>
+                            <dl>lasagne alla pizzaiolo    /    $19</dl>
+                            <dt>semolina gnocchi / roasted tomato / herbs / butter / pecorino</dt>
                         </div>
                     </div>
                 </div>
@@ -147,22 +171,21 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="accordion" id="accordionExample">
+                <div class="accordion menuContent" id="accordionExample">
                     <div class="card-header text-center" id="headingFour">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour"
+                        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseFour"
                             aria-expanded="true" aria-controls="collapseOne">
                             Piatti
                         </button>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                        <div>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                            you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div id="collapseFour" class="collapse menuText" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="text-center">
+                            <dt>sliced sirloin of beeef / mushrooms /roast potato/ chianti</dt>
+                            <dl>tagliata di manzo    /    $28</dl>
+                            <dt>slow-cooked pork / fried polenta / rapini</dt>
+                            <dl>maiale cotto a fuoco lento    /    $19</dl>
+                            <dt>berkshire pork rib chop / fried mozzarella / tomato sauce</dt>
+                            <dl>costola di maiale con mozzarella fritte    /    $29</dl>
                         </div>
                     </div>
                 </div>
@@ -170,22 +193,25 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="accordion" id="accordionExample">
+                <div class="accordion menuContent" id="accordionExample">
                     <div class="card-header text-center" id="headingFive">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
                             aria-expanded="false" aria-controls="collapseThree">
                             Contorni
                         </button>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                        <div>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                            you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div id="collapseFive" class="collapse menuText" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="text-center">
+                            <dt>meatballs</dt>
+                            <dl>polpette    /    $4</dl>
+                            <dt>roasted potatoes </dt>
+                            <dl>patate arrosto    /    $6</dl>
+                            <dt>rapini / chili / garlic</dt>
+                            <dl>rapini con aglio e pepperoncino    /    $7</dl>
+                            <dt>linguini / sweet peppers</dt>
+                            <dl>linguini e peperoni    /    $7</dl>
+                            <dt>fried polenta</dt>
+                            <dl>polenta fritte    /    $6</dl>
                         </div>
                     </div>
                 </div>
@@ -193,28 +219,28 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="accordion" id="accordionExample">
+                <div class="accordion menuContent" id="accordionExample">
                     <div class="card-header text-center" id="headingSix">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix"
+                        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseSix"
                             aria-expanded="true" aria-controls="collapseOne">
                             Dolci
                         </button>
                     </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                        <div>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                            you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div id="collapseSix" class="collapse menuText" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="text-center">
+                            <dt>ricotta cheesecake    /    $7</dt>
+                            <dt>panna cotta    /    $7</dt>
+                            <dt>biscotti    /    $5</dt>
+                            <dt>semifreddo    /    $7</dt>
+                            <dt>butterscotch budino    /    $7</dt>
+                        
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </main>
 
 
@@ -223,6 +249,15 @@
 
 
 
+<footer class="footer">
+    <div class="container footerContent">
+        <div class="row text-center align-items-end">
+            <div class="col">585-454-3510</div>
+            <div class="col">| rocco |</div>
+            <div class="col">165 Monroe Ave</div>
+        </div>
+    </div>
+</footer>
 
 
 
