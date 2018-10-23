@@ -34,7 +34,7 @@
 
 .menuContent {
     color: white;
-    border: .5px dotted white;
+    border: .5px dotted brown;
 }
 
 .menuLogo {
@@ -72,7 +72,7 @@
 }
 
 .welcomelogo {
-    padding-top:100px;
+    padding-top:20vh;
     font-family: 'Italianno', cursive;
     font-size: 60px;
 }
